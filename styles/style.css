@@ -44,8 +44,15 @@ body {
     margin-bottom: 20px;
 }
 .dontknowhowtocenter {
-    margin: 200px;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: auto;
+/* im having far too much trouble centering this thing i feell.. but then margin: auto; aint working*/
+    padding-top: 122px;
+    padding-left: 50%;
+
 }
+
 .bottom {
     background-color: #f3f3f3;
     margin: 0;
@@ -75,7 +82,7 @@ body {
 }
 
 li {
-    display: inline;
+    display: inline-block;
     padding: 4px;
 }
 #goinright {
