@@ -1,3 +1,6 @@
+html{
+    margin: 0;
+}
 body {
     margin: 0;
     overflow: scroll;
@@ -21,8 +24,9 @@ body {
 
 .content {
     width: 100%;
-    height: 450px;
+    height: 650px;
     margin: 0 auto;
+    text-align: center;
 }
 .content p {
     font-size: 12px;
@@ -45,12 +49,10 @@ body {
 }
 .dontknowhowtocenter {
     -webkit-appearance: none;
-    appearance: none;
     margin: auto;
 /* im having far too much trouble centering this thing i feell.. but then margin: auto; aint working*/
-    padding-top: 122px;
-    padding-left: 50%;
-
+    display: inline-block;
+    padding: 250px;
 }
 
 .bottom {
@@ -90,8 +92,11 @@ li {
 }
 a {
     color: blue;
-    
 }
-a :hover {
-    color: lightblue;
+.footer2 a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    text-decoration: underline; 
 }
