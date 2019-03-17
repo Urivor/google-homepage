@@ -7,19 +7,22 @@ body {
 }
 .nav-menu-thing {
     width: 100%;
-    height: 30px;
+    height: 60px;
 
 }
 .nav-menu-thing ul {
     float:right;
     list-style-type: none;
     margin: 0;
+    margin-top: 15px;
     padding: 0;
     font-size: 12px;
+    vertical-align: middle;
 }
 
 .nav-menu-thing a {
     color: black;
+    text-decoration: none;
 }
 
 .content {
@@ -48,11 +51,12 @@ body {
     margin-bottom: 20px;
 }
 .dontknowhowtocenter {
-    -webkit-appearance: none;
-    margin: auto;
 /* im having far too much trouble centering this thing i feell.. but then margin: auto; aint working*/
     display: inline-block;
-    padding: 250px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30%;
+
 }
 
 .bottom {
