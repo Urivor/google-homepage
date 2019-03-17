@@ -124,7 +124,10 @@ span#lilmenus {
     font-family: Arial, Helvetica, sans-serif;
 }
 .rightresults {
+    vertical-align: top;
+    text-align: center;
     float: right;
+    padding-right: 90px; 
 }
 .bottom {
     background-color: #f3f3f3;
